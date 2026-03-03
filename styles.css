@@ -30,11 +30,28 @@ li {
     flex: 1;
 }
 
+.container {
+    padding: 50px 0;
+}
+
 .row {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
 }
+
+.text--purple {
+    color: #6030b1;  
+}
+
+section:nth-child(even){
+    background-color: #eae7e7;
+}
+
+.section__title {
+    margin-bottom: 20px
+}
+
 /*NAVIGATION BAR*/
 nav {
    height: 100px;
@@ -76,9 +93,7 @@ nav {
     font-weight: bold;
 }
 
-.text--purple {
-    color: #6030b1;  
-}
+
 
 /*ABOUT ME*/
 #about-me {
@@ -140,4 +155,17 @@ padding-top: 4px;
 .about-me__img {
     width: 100%;
 }
-   
+
+/* TECH-STACK */
+
+.language_img {
+   width: 100%;
+   max-width: 100px;
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
