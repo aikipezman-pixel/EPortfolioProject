@@ -86,6 +86,12 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
+
 .about-me__info--container {
     display: flex;
     flex-direction: column;
@@ -123,5 +129,15 @@ padding-top: 4px;
     font-size: 20px;
     color: #242424;
     text-decoration: none;
-    padding: 0 16ox;
+    padding: 0 16px;
 }
+
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.about-me__img {
+    width: 100%;
+}
+   
