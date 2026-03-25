@@ -2,7 +2,7 @@
 * {
     font-family: "Lato", sans-serif;
     padding: 0;
-    margin: o;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -42,7 +42,7 @@ a:hover {
     width: 0;
     bottom: -3px;
     left: 0;
-    transition: all 100 ms ease;
+    transition: all 100ms ease;
 }
 
 .link__hover-effect--white:after {
@@ -438,14 +438,14 @@ footer {
     height: 68px;
  }
 
- hi {
+ h1 {
     font-size: 28 px
  }
-.about-me__info--para (
+.about-me__info--para {
     font-size: 18px;
-)  
+}  
 .language {
-    font-width: calc(100% / 3);
+    width: calc(100% / 3);
 }
 .project__description--para {
     font-size: 14px;
