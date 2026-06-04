@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeff Hodges</title>
-    <link rel="stylesheet" href="./styles.css"> 
+    <link rel="stylesheet" href="styles.css"> 
     <script src="https://kit.fontawesome.com/6f04150875.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section id="aboutme">
+    <section id="about-me">
         <nav>
-            <div class="personal__logo">Jeff Hodges</div>
+            <div class="personal__logo">
+              <img src="assets/LogoHoriz.png" alt="AiSee Web Design" class="personal__logo--image">
+                
+            </div>
             <ul class="nav__link--list">
                 <li class="nav__link">
                     <a href="#languages" class="
                         nav__link--anchor
                         link__hover-effect
                         link__hover-effect--black"
-                        >Languages</a>
+                        >Languages
                     </a>
                 </li>
                 <li class="nav__link">
@@ -25,14 +28,14 @@
                         nav__link--anchor
                         link__hover-effect
                         link__hover-effect--black"
-                        >Projects</a>
+                        >Projects
                     </a>
                 </li>    
                 <li class="nav__link">
                     <a href="mailto:ai_ki_paz_man@yahoo.com" class="
                         nav__link--anchor
                         nav__link--anchor-primary"
-                        >Contact</a>
+                        >Contact
                     </a>
                 </li>  
             </ul>
@@ -41,12 +44,13 @@
                 <div class="about-me__info row">
                     <div class="about-me__info--container">
                        <figure class="about-me__picture--mask">
-                        <img src="./ProfilePic.jpg" class="about-me__picture"alt="Profile Picture">
+                        <img src="assets/20260530_175213.jpg" class="about-me__picture"alt="Profile Picture">
                        </figure> 
                        <h1 class="about-me__info--title">
                         <span class="text--purple">Jeff Hodges</span>&nbsp;<span class="wave">👋</span>
+                       </h1>
                         <p class="about-me__info--para">
-                            I'm a <strong class="text--purple">software engineer </strong>and <strong class="text--purple">music educator</strong> with a passion for building innovative and efficient solutions. My goal is to continuously learn and grow in the field of technology while contributing to meaningful projects.
+                            <strong class="text--purple">Front-end developer</strong>, <strong class="text--purple">educator</strong> and <strong class="text--purple">researcher</strong> creating design-forward digital experiences that blend technology, creativity, and communication.
                         </p>
                         <div class="about-me__links">
                             <a href="https://www.youtube.com/channel/UCLAqI6suQ1OBOxc33NukSOw" class="about-me__link">
@@ -58,43 +62,39 @@
                              <a href="https://www.instagram.com/dr_spins_prescriptions/" class="about-me__link">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="Example Resume.pdf" target="_blank" class="about-me__link">
+                            <a href="assets/Jeff Hodges Resume.pdf" target="_blank" class="about-me__link">
                                 <i class="fa-solid fa-file"></i>
                             </a>
                            
                     </div>
                 </div>  
               <figure class="about-me__img--container">  
-                <img src="SplashGraphic.png" class="about-me__img" alt="illustration">
+                <img src="assets/SplashGraphic.png" class="about-me__img" alt="illustration">
+                </figure>
+            </div>
             </div>
     </section>
     <section id="languages">
         <div class="container">
             <div class="row">
-                <h1 class="section__title">My <span class="text--purple">Technology Stack</span></h1>
+                <h1 class="section__title">My <span class="text--purple">Technology Toolkit </span></h1>
                 <div class="language__list">
                     <div class="language">
                        <figure class="language__img--wrapper">
-                        <img src="./HTML5_Badge.svg.png" alt="" class="language__img">
+                        <img src="assets/HTML5_Badge.svg.png" alt="" class="language__img">
                        </figure> 
                        <span class="language__name">HTML5</span>
                     </div>
                      <div class="language">
                        <figure class="language__img--wrapper">
-                        <img src="./css-131-722685.webp" alt="" class="language__img">
+                        <img src="assets/css-131-722685.webp" alt="" class="language__img">
                        </figure>
                         <span class="language__name">CSS</span>    
                     </div> <div class="language">
                        <figure class="language__img--wrapper">
-                        <img src="./HTML5_Badge.svg.png" alt="" class="language__img">
+                        <img src="assets/javascript-1-225993.webp" alt="" class="language__img">
                        </figure> 
-                       <span class="language__name">HTML5</span>
-                    </div> <div class="language">
-                       <figure class="language__img--wrapper">
-                        <img src="./HTML5_Badge.svg.png" alt="" class="language__img">
-                       </figure> 
-                       <span class="language__name">HTML5</span>
-                    </div>
+                       <span class="language__name">JavaScript</span>
                 </div>
             </div>
         </div>
@@ -105,13 +105,67 @@
                 <h1 class="section__title">Some of my <span class="text--purple">Projects</span></h1>
                 <ul class="project__list">
                     <li class="project">
+                        <a href="https://www.katewurtzel.com"
+                            target="_blank"
+                            class="project__card--link">
                         <div class="project__wrapper">
-                            <img src="purplenodes.png" class="project__img" alt="Project Image">
+                            <img src="assets/KateGraphic.png" class="project__img" alt="Project Image">
+                                <div class="project__description">
+                                   <h3 class="project__description--title">Website for Dr. Kate Wurtzel</h3> 
+                                   <h4 class="project__description--sub-title">Fully deployed site </h4>
+                                   <p class="project__description--para">
+                                    A reactive and fully functional multi-page promotional home site for writer and artist Dr. Kate Wurtzel
+                                   </p>
+                                   <div class="project__description--links">
+                                    <a href="https://www.katewurtzel.com" target="_blank" class="project__description--link" alt="Website Code Link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://drspinsmusicalmusings.blogspot.com/" target="_blank"class="project__description--link" alt="Website Code Link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                   </div>
+                                </div>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="project">
+                        <a href="https://aikipezman-pixel.github.io/KarenHodgesSite"
+                            target="_blank"
+                            class="project__card--link">
+                        <div class="project__wrapper">
+                            <img src="assets/KarenGraphic.png" class="project__img" alt="Project Image">
+                                <div class="project__description">
+                                   <h3 class="project__description--title">Website for Karen Hodges </h3> 
+                                   <h4 class="project__description--sub-title">Site in progress</h4>
+                                   <p class="project__description--para">
+                                    A reactive site for author Karen Hodges, with architecture for e-commerce
+                                   </p>
+                                   <div class="project__description--links">
+                                    <a href="https://www.katewurtzel.com" target="_blank"class="project__description--link" alt="Website Code Link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://drspinsmusicalmusings.blogspot.com/" target="_blank"class="project__description--link" alt="Website Code Link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                   </div>
+                                </div>
+                        </div>
+                        </a>
+                    </li>
+
+
+
+                    <li class="project">
+                          <a href="https://github.com/aikipezman-pixel?tab=repositories"
+                            target="_blank"
+                            class="project__card--link">
+                        <div class="project__wrapper">
+                            <img src="assets/purplenodes.png" class="project__img" alt="Project Image">
                                 <div class="project__description">
                                    <h3 class="project__description--title">E Portfolio Github</h3> 
                                    <h4 class="project__description--sub-title">Html, CSS, Javascript, Vue, Vuex </h4>
                                    <p class="project__description--para">
-                                    A coding example that shows my organizational and structuring practices
+                                    Examples of my coding organization and structuring practices
                                    </p>
                                    <div class="project__description--links">
                                     <a href="https://github.com/aikipezman-pixel/EPortfolioProject" target="_blank"class="project__description--link" alt="Website Code Link">
@@ -123,10 +177,14 @@
                                    </div>
                                 </div>
                         </div>
+                        </a>
                     </li>
                     <li class="project">
+                          <a href="https://drspinsmusicalmusings.blogspot.com/"
+                            target="_blank"
+                            class="project__card--link">
                         <div class="project__wrapper">
-                            <img src="CreatorGraphic.png" class="project__img" alt="Project Image">
+                            <img src="assets/CreatorGraphic.png" class="project__img" alt="Project Image">
                                 <div class="project__description">
                                    <h3 class="project__description--title">Dr. Spin's Homebase</h3> 
                                    <h4 class="project__description--sub-title">Text writing and video editing examples </h4>
@@ -143,7 +201,9 @@
                                    </div>
                                 </div>
                         </div>
+                        </a>
                     </li>
+                
                 </ul>
             </div>
         </div>      
@@ -152,7 +212,7 @@
         <div class="row footer__row">
             <a href="#" class="footer__anchor">
             <figure class="footer__logo">
-                <img src="2025FinalsLogo.jpg" class="footer__logo--image" alt="logo">
+                <img src="assets/LogoCROPPED.png" class="footer__logo--image" alt="logo">
             </figure>
             <span class="footer__logo--popper">
                 Top
@@ -160,12 +220,12 @@
             </span>
             </a>
             <div class="footer__social--list">
-                <a href="https://drspinsmusicalmusings.blogspot.com/" class="
+                <a href="https://github.com/aikipezman-pixel?tab=repositories" class="
                 footer__social--link
                 link__hover-effect
                 link__hover-effect--white"
                 target="_blank">Github</a>
-                <a href="https://drspinsmusicalmusings.blogspot.com/" class="
+                <a href="https://www.linkedin.com/in/jeff-hodges-17735a2b/" class="
                 footer__social--link
                 link__hover-effect
                 link__hover-effect--white"
@@ -175,7 +235,7 @@
                 link__hover-effect
                 link__hover-effect--white"
                 target="_blank">Email</a>
-                <a href="Example Resume.pdf" class="
+                <a href="assets/Jeff Hodges Resume.pdf" class="
                 footer__social--link
                 link__hover-effect
                 link__hover-effect--white"
