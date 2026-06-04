@@ -467,6 +467,9 @@ footer {
     left: 30px;
     padding-right: 30px;
 }
+.personal__logo--image {
+    height: 50px;
+}
 }
 /*small phones*/
 @media (max-width: 480px) {
@@ -497,4 +500,7 @@ footer {
         text-align: center;
         margin: 12px 0;
     }
+    .personal__logo--image {
+    height: 36px;
+}
 }
